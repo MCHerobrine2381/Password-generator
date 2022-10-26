@@ -7,4 +7,7 @@ string = upper + number
 length = 7 
 password ="".join(random.sample(string, length))
 
-print("> Password: " + password)
+import time
+time.sleep(0.3)
+
+print("\n> Password: " + password)
